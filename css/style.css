@@ -128,11 +128,67 @@ body{
  .contenedorestudios h1{
   font-size: 20px;
  }
+ @media (max-width: 873px) {
+  html {
+      font-size: 40%;
+  }
+  .cuadroindex .imgcv {
+      display: none;
+  }   
+ }
+ @media (max-width: 873px) {
+  .home .home-content {
+      max-width: 50rem;
+  }
+ }
+ @media (max-width: 800px) {
+  .nav {
+      position:static;
+      top: 0%;
+      left: 0;
+      width: 100%;
+      padding: 1rem 3%;
+  }
+  .nav a {
+      font-size: 2rem;
+  }
+  .cuadroindex {
+      margin-top: 150px;
+      padding: 0 3% 23rem;
+      justify-content: center;
+      text-align: center;
+  }
 
- @media screen and (max-width:800px)
- .html {
-  font-size: 40%;
+  .contenedorindex h1 {
+      font-size: 5rem;
+  }
+
+  .contenedorindex p {
+      font-size: 2rem;
+  }
+
+  .contenedorinfo {
+      flex-direction: column-reverse;
+      margin-top: 100px;
+      text-align: center;
+  }
+  
+  .titulodatos {
+      font-size: 5rem;
+  }
+
+  .contenedorinfo p {
+      font-size: 2.1rem;
+  }
+
+ .contenedorestudios {
+  font-size: 20px;
  }
- .index .imgcv {
-  display: none;
- }
+
+  .contenedorconocimientos {
+      font-size: 13px;
+  }
+
+  .titulodatos h1 {
+      font-size: 40px;
+  }
